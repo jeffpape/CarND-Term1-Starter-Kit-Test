@@ -4,7 +4,7 @@
 Files to test the [term 1 starter kit](https://github.com/udacity/CarND-Term1-Starter-Kit) install. 
 Run all cells in the jupyter notebook. The notebook should execute all cells with no errors.
 
-------
+****
 
 Since I am new to the computer vision and self driving vehicles spaces, I incorporated the Hough Transform algorithm presented in section 15 of the Finding Lane Lines from the Udacity Self-Driving Car NanoDegree program.
 
@@ -23,7 +23,7 @@ Thank you,
 
 Jeff Pape
 
-------
+****
 
 Since I am develop on macOS, I used brew to install many of the software packages, such as: ffmpeg.
 
