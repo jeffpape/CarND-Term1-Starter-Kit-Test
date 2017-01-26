@@ -11,6 +11,7 @@ Since I am new to the computer vision and self driving vehicles spaces, I incorp
 I am in the process of fine tuning the Hough Transform parameters so that my program annotates the lane line markers and not other objects.
 
 Some issues that I encountered using this algorithm are:
+
 1. Defining the capture polygon which tells the algorithm to look for lines is very specific to the images and videos being process. The orientation of the vehicle - really the sensors - to the road and the road’s curvature greatly affect the capture polygon. I created the capture polygon by trial and error by hand. If I was usually this algorithm in its current state for production, I would recommend developing a means to draw by hand possible capture polygons using a tablet; I would create a program that captures the data points of the image as the human traces out the road. The human could do this for several image, then the program would find the small bounding polygon which is the union of all the capture polygons.
 
 2. The weather and daylight conditions greatly effect the brightness and contrast of the pixel data. I can see a place frames where the rapid change from trees’ shadows to bright sunlight washes out the left yellow solid boundary line of the highway. The images and videos are taken under reasonably good weather conditions. I wonder how rain, snow and darkness would affect the images and videos; consequently, you probably should employ a multi-sensory approach such as video cameras, lidar, infra-red.
